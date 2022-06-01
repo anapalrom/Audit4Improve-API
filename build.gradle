@@ -16,7 +16,7 @@ plugins {
     //para poder publicar paquetes en github
     id 'maven-publish'
     //Plugin para análisis estático de código
-    id "nebula.lint" version "17.7.0"
+    id "nebula.lint" version "17.7.0" 
 }
 //Para publicar paquetes en github
 //group = 'A4I'
