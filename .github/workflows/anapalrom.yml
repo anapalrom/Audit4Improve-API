@@ -1,0 +1,12 @@
+name: P5 FS
+on:
+  issues:
+    types: [opened, transferred, assigned]
+  push:
+  workflow_dispatch:
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 El dueño del repositorio es ${{ github.repository_owner }}".
+  
